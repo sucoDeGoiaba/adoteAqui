@@ -109,14 +109,19 @@ main {
     "imagem imagem imagem imagem";
 }
 
+/* .containerGrid {
+    padding: 20px;
+    display: flex;    
+    justify-content: start;
+} */
+
 img {
     width: 100%;
-
     border-radius: 10px;
 }
 
 .imagem {
-    width: 350px;
+    width: 350px; 
     height: auto;
     box-shadow: 0.5px 0.5px 0.5em #000000;
     grid-area: "imagem";
@@ -128,4 +133,14 @@ img {
         grid-template-areas: 
     "imagem";
     }
+}
+
+footer {
+    background-color: #f7e1ba;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    padding: 25px;
 }
